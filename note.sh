@@ -1,13 +1,40 @@
 #!/bin/bash
+
+
+filename="notes.txt"
 add_notes() {
-    filename=$1
 
-    read -p "what is the name of the file:" filename
-    read -p "Enter the note you want to add:" newnote
+    timestamp=$(date +"%Y-%m-%d %H-%M-%S")
+    
+    if [ "$1" != "" ]; then
+        echo "$timestamp - $1" >> $filename
 
-
-    if [ "$newnote" != "" ]; then
-        echo $newnote >> $filename
+        echo 'Note added successfully'
     fi
 }
-add_notes 
+
+list_notes() {
+    if [ -f "$filename" ]; then 
+        cat "$filename"
+    else
+        echo "Unfortunately $filename does not exist"
+    fi
+}
+
+search_notes() {
+    grep "$1" $filename
+}
+
+case $1 in
+    add)
+        add_notes "$2"
+        ;;
+    list)
+        list_notes
+        ;;
+    search)
+        search_notes "$2"
+        ;;
+esac
+
+exit 
