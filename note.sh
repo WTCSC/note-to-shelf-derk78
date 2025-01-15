@@ -22,7 +22,8 @@ list_notes() {
 }
 
 search_notes() {
-    grep "$1" $filename
+    #I used the grep command here to find the keyword and return 
+        grep "$1" $filename
 }
 
 case $1 in
