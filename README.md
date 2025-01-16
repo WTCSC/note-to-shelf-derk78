@@ -5,10 +5,10 @@
 
 *This is a simple yet effective tool you can use to document your everday life.*
 
-**How to use it**
+*How to use it*
 - In order to run this note taking tool you have to use the `chmod +x` to get execution privileges.
 - To actually run it inside bash you have to put the path of the exectuable file in the terminal if the file's in the current directory then put a `./` in front of the file, a period in front to mark the current directory.
-**functions**
+*functions*
 - This note taking tool has three functions where you can add notes, list your notes, and search through your notes.
 - To add notes type the path to the exectuable file in the terminal to actually run the script then type "add" followed by the note you want to add.
 - To search do the same thing but type "search" followed the by the keyword/s you want to find in your notes.
