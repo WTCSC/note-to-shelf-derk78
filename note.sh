@@ -4,7 +4,7 @@
 filename="notes.txt"
 add_notes() {
 
-    #Gather the current date using the `date` command and then combined it with the specified format.
+    #Gather the current date using the `date` command and then combine it with the specified format.
     timestamp=$(date +"%Y-%m-%d %H-%M-%S")
     
     #If the note isn't empty add the timestamp to the note defined by `$1` then append it to the file using the echo command and two greater than symbols. 
