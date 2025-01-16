@@ -1,7 +1,10 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/x_3ULh4W)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17705608)
 # Note to Shelf
+*Epic Bash Note Taker*
 
+This is a pretty fricken cool note taking script using bash that will let you put notes into a file, with timestamps mind you. 
+Not to mention all the other pretty awesome features said note taker has, not only does it take notes with a short and sweet command, timestamps included cause I love documentation.but it can search for keywords and list all your notes. Pretty awesome I know 😏.
 <!--
 
 Create a shell script that functions as a command-line note-taking tool. This tool should help you quickly capture and organize thoughts, reminders, and tasks directly from the terminal.
