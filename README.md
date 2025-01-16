@@ -6,9 +6,9 @@
 *This is a simple yet effective tool you can use to document your everday life.*
 
 **features**
-- This bash note taking tool will add your notes to a file of your choosing with as little as a 3 letter command.
+- This bash note taking tool will add your notes to a file with as little as a 3 letter command.
 - Not only will it allow you to write notes for yourself but document those notes with timestamps.
-- It will also search keywords for you incase you got a little too carried away writing down notes, or your files getting a bit too long and can't find that one note.
+- It will also search keywords for you incase you got a little too carried away writing down notes, or your file's getting a bit too long and can't find that one note you're looking for.
 - Finally it will even list all your notes for you, so you can go back and look at them as much as you like.
 
 <!--
