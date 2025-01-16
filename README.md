@@ -5,11 +5,14 @@
 
 *This is a simple yet effective tool you can use to document your everday life.*
 
-**features**
-- This bash note taking tool will add your notes to a file with as little as a 3 letter command.
-- Not only will it allow you to write notes for yourself but document those notes with timestamps.
-- It will also search keywords for you incase you got a little too carried away writing down notes, or your file's getting a bit too long and can't find that one note you're looking for.
-- Finally it will even list all your notes for you, so you can go back and look at them as much as you like.
+**How to use it**
+- In order to run this note taking tool you have to use the `chmod +x` to get execution privileges.
+- To actually run it inside bash you have to put the path of the exectuable file in the terminal if the file's in the current directory then put a `./` in front of the file, a period in front to mark the current directory.
+**functions**
+- This note taking tool has three functions where you can add notes, list your notes, and search through your notes.
+- To add notes type the path to the exectuable file in the terminal to actually run the script then type "add" followed by the note you want to add.
+- To search do the same thing but type "search" followed the by the keyword/s you want to find in your notes.
+- Finally to list all your notes type the path again with "list" to list all the contents of your notes file. 
 
 <!--
 
